@@ -24,21 +24,22 @@
   },
   "homepage": "https://github.com/vyPal/gjsframe#readme",
   "devDependencies": {
-    "jsdoc-to-markdown": "^7.1.0",
-    "discord.js-docgen": "discordjs/docgen"
+    "@discordjs/docgen": "^0.11.1",
+    "discord.js-docgen": "discordjs/docgen",
+    "jsdoc-to-markdown": "^7.1.0"
   },
   "dependencies": {
+    "ansi-regex": ">=4.1.1",
     "common-tags": "^1.8.2",
-    "guilded.ts": "0.9.0",
     "discord.js": "13.8.1",
     "docdash": "^1.2.0",
     "emoji-regex": "^10.0.0",
+    "guilded.ts": "0.9.0",
     "is-promise": "^4.0.0",
     "jsdoc": "^3.5.5",
     "markdown-it": ">=12.3.3",
     "marked": ">=4.0.11",
-    "require-all": "^3.0.0",
-    "ansi-regex": ">=4.1.1",
-    "minimist": ">=1.2.6"
+    "minimist": ">=1.2.6",
+    "require-all": "^3.0.0"
   }
 }
