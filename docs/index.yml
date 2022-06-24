@@ -1,0 +1,15 @@
+- name: General
+  files:
+    - name: Welcome
+      id: welcome
+      path: ../../README.md
+    - name: First steps
+      id: first-steps
+      path: ./first-steps.md
+    - name: First command
+      id: first-command
+      path: ./first-command.md
+- name: Commands
+  files: 
+    - name: Built-in commands
+      path: ./builtins.md
